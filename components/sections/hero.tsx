@@ -32,10 +32,14 @@ export function HeroSection() {
             <div className="hero-orbit hero-orbit-two" />
             <div className="hero-photo-frame">
               <Image src={PERSONAL_INFO.profileImage} alt={PERSONAL_INFO.name} fill priority sizes="(max-width: 768px) 80vw, 440px" className="hero-photo" />
-              <div className="hero-photo-shade" />
-              <div className="hero-photo-caption"><span>SS / 01</span><span>Software Engineer</span></div>
             </div>
-            <div className="hero-float-card"><span className="hero-float-label">CURRENTLY</span><strong>Building reliable<br />digital foundations.</strong><span className="hero-float-status"><i /> Open to opportunities</span></div>
+            <div className="hero-float-card">
+              <div className="hero-float-content">
+                <span className="hero-float-label">CURRENTLY</span>
+                <strong>Building reliable digital foundations.</strong>
+              </div>
+              <span className="hero-float-status"><i /> Open to opportunities</span>
+            </div>
             <div className="hero-socials">
               <a href={PERSONAL_INFO.github} target="_blank" rel="noreferrer" aria-label="GitHub"><GithubIcon className="w-[17px] h-[17px]" /></a>
               <a href={PERSONAL_INFO.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedinIcon className="w-[17px] h-[17px]" /></a>

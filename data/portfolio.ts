@@ -66,7 +66,7 @@ export const PERSONAL_INFO = {
     "Software Engineer with 2+ years of experience building web applications, scalable REST APIs, modular backend services, and data-driven products using Node.js, Express.js, TypeScript, MySQL, and PostgreSQL. Skilled in system design, database management, and cross-team collaboration in fast-paced startup environments. Has completed an MCA and contributes to live products serving real users.",
   experienceYears: "2+",
   statusText: "Open to Software Engineering Roles",
-  profileImage: "/images/profile/shailendra-sharma.jpg",
+  profileImage: "/images/profile/shailendra-sharma-cutout.png",
 };
 
 export const CAPABILITIES = [
